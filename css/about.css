@@ -1,0 +1,110 @@
+/* about */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    line-height: 70px; 
+    background: rgb(251, 252, 253); 
+    border-bottom: 2px snow;
+}
+
+/* this is for ul tag*/
+.menu {
+    float: right;
+    background: none;
+}
+
+.menu li {
+    float: left;
+    width: 100px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    list-style: none;
+}
+
+.menu li a {
+    color: rgb(8, 8, 8);
+    text-decoration-style: none;
+    font-family: calibri;
+    text-transform: capitalize;
+    display: block;
+}
+
+.menu li:hover {
+    background: #837f7f;
+}
+
+body {
+    background: url("./img/onetemp.jpg") no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-emphasis-color: rgb(179, 176, 176);
+}
+
+.box:hover {
+    box-shadow: 0 5px 15px rgba(187, 121, 121, 0.5);
+}
+
+.box {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    width: 60%;
+    box-sizing: border-box;
+    background: rgb(224, 223, 220);
+    background: #fffd;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    height: 60%;
+    overflow-x: hidden;
+    box-shadow: 0 2px 15px #000;
+    transition: 0.3s;
+}
+
+.box .content {
+    padding: 30px;
+}
+
+.box .content p {
+    margin: 10px 0 0;
+    text-align: justify;
+}
+
+.content h1 {
+    padding-bottom: 10px;
+    font-size: 1.5em
+}
+
+#start {
+    padding: 10px 30px;
+    background: #fff;
+    border: 0;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+#start:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 10px solid #000;
+    border-color: transparent #000 #000 transparent;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
